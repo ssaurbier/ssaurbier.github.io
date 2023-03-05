@@ -49,7 +49,7 @@
                     </div>
                     <p class="lead mb-5"> I am a data scientist with a degree in economics from Hamilton College. I focus on product- and business-oriented solutions based on meaningful data and robust analysis. I thrive on continual learning and the challenge of solving new, complex problems. I have experience working with diverse datasets, ML and data engineering methodologies, led teams both in-person and remote, and worked with leadership teams to initiate interventions to improve strategic outcomes.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/steven-aurbier/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/stevensaurbier/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/ssaurbier"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Regression, Classification, Feature Engineering, Natural Language Processing/NLP (including sentiment analysis), Neural Networks (sequential, CNN, RNN)
+                            Regression, Classification, Ensemble methods, Feature Engineering, Natural Language Processing/NLP (including sentiment analysis), Neural Networks (sequential, CNN, RNN)
 
 
                         </li>
@@ -127,45 +127,43 @@
                     <h2 class="mb-5">portfolio</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">NLP-Classification-of-Subreddit-Threads</h3>
-                            <br>
-                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/sleep.jpeg" width="250/">
-                            <div class="subheading mb-3">Classification of Attachment Parenting and Sleep Training Subreddits</div>
-                            <p>Webscraping (PRAW) used to pull data from Reddit Subreddits and create an NLP model to predict the origin of a Subreddit based on title text. Sleep Training and Attachment Parenting are the two mainstream methods of infant sleeping that new parents use to get their children to sleep. Those that subscribe to the attachment parenting philosophy generally sleep with their children and, therefore, have less need for the range of monitoring equipment from audio/video monitoring to vital sign monitoring. Whereas those in the Sleep Training camp begin sleeping apart from their children in their early weeks of their infants life and tend to purchase more monitoring equipment. Here an hyperparameter optimized stacking classification model consisting of TfidVectorized text from post titles in the Sleep Training and Attachment Parenting Subrredits modeled with Random Forest Classifier, MultinomialNB and AdaBoost with Decision  and Logistic Regression is created and evaluated for class prediction. The stacked model will categorize individuals as "sleep trainers" or "attachment parents" based on their post title patterns. The stacked model can be applied to other social media platforms to predict if individuals are a good target for baby monitor advertising. </p>
-                            <br>
-                            <a href="https://github.com/saskinosie/NLP-Classification-of-Subreddit-Threads/blob/main/project_3_presentation.pdf">Presentation Here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/NLP-Classification-of-Subreddit-Threads">Code Here</a>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Tensorflow-CNN-Classification-of-Leukemia-Cells</h3>
+                            <h3 class="mb-0">Metaverse Traffic Analysis</h3>
                             <br>
                             <img style="float: left; margin: 0px 0px 10px 10px;" src="assets/img/all_vs_hem_cells.png" height="400" width="300">
-                            <div class="subheading mb-3">Leukemia Classification with Tensorflow</div>
-                            <p>Acute lymphoblastic leukemia, ALL, is the most common type of childhood cancer and accounts for almost 25% of all pediatric cancers in the United States. Here a binary classification model is created to identify morphological characteristics of white blood cells to determine if they have normal morphology or morphology that is consistent with a leukemia blast (a cancerous white blood cell associated with ALL ). This model will help to reduce costs and time in diagnosing possible cases of ALL. Conventional diagnostics include a blood test that counts the number of white and red blood cells in a sample. Elevated white blood cell counts can suggest the possibility of ALL. Currently, if a sample indicates elevated white blood cell counts it is then subjected to flow cytometry and then the possibility of patient biopsy of bone marrow or lymph node tissue. Introducing a technique such as Quantitative Cell Imaging paired with computational modeling in tandem with routine health exams or blood tests that exhibit elevated white blood cell counts can reduce costs and time for diagnosis improving the chances of successful treatment.</p>
+                            <div class="subheading mb-3">Traffic insights and scene engagement in Decentraland</div>
+                            <p>The metaverse is a highly data-saturated environment where users can interact with each other, and games, called "scenes." This project explores user and scene behavior, generates heatmaps, and demonstrates regression and clustering analysis of scene engagement, in addition to hypothesis-testing for the significance of listing a scene as a POI (point of interest).</p>
                             <br>
-                            <a href="https://github.com/saskinosie/Tensorflow-CNN-Classification-of-Leukemia-Cells/blob/main/Project%204%20-%20Leukemia%20Classification.pdf">Presentation Here</a>
+                            <a href="https://github.com/ssaurbier/decentraland/blob/main/capstone.pdf">Presentation Here</a>
                             <br>
-                            <a href="https://github.com/saskinosie/Tensorflow-CNN-Classification-of-Leukemia-Cells">Code Here</a>
+                            <a href="https://github.com/ssaurbier/decentraland">Code Here</a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Image-Recognition-Streamlit-App</h3>
+                            <h3 class="mb-0">NLP Classification of Similar Subreddits</h3>
+                            <br>
+                            <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/sleep.jpeg" width="250/">
+                            <div class="subheading mb-3">Identifying differences between /r/ethereum and /r/bitcoin</div>
+                            <p>API (pushshift) used to pull data from Reddit Subreddits and create an NLP model to predict the origin of a Subreddit based on title text. Sentiment analysis included. Bitcoin and ethereum may seem similar to non-crypto users, and while they started with similar goals, they have substantively diverged in archictecture, application, usage, and ultimately community. Ethereum is in many ways a direct response to the capture and ossification of bitcoin core, and the ecosystem faced a crisis over the blocksize (monetary velocity) limit, culminating in 2016. Blockstream coopted bitcoin core, forced out key devs (notably gavin andresen), and purged all communities that did not conform to the new vision, with the help of an anonymous moderator that controlled all major social platforms (Cobra-bitcoin). I parse the text, perform feature engineering, remove key identifiers, and classify text with a variety of models. Surprisingly, even with custom stop words for easily-classifiable information, users of the subreddits are easily identifiable, and discuss different topics. However, sentiment and tone between the two subreddits are similar.</p>
+                            <br>
+                            <a href="https://github.com/ssaurbier/subreddit_nlp/blob/main/Project%203.pdf">Presentation Here</a>
+                            <br>
+                            <a href="https://github.com/ssaurbier/subreddit_nlp">Code Here</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Open-AI Facilitated Anti-Bias Tool</h3>
                             <br>
                             <img style="float: right; margin: 0px 0px 10px 10px;" src="assets/img/hot_weiner.jpg" height="400" width="400">
-                            <div class="subheading mb-3">A Convoluted Neural Network (CNN) Model for Image Recognition Deployed in Streamlit</div>
-                            <p>Image recognition refers to the ability of a model to accurately identify a target within an image. Image recognition is utilized in a number of different industries from identifying possible faults in a manufacturing line to determining if an individual possesses anatomical abnormalities in healthcare. Image recognition is also used in artificial Intelligence (AI) programs to identify individuals based on facial features or create new faces modeled after previously identified features. The applications of image recognition are vast and the cornerstone for many emerging technologies.  Here a Convoluted Neural Network is created to determine if an image contains or does not contain a hot dog. The CNN model is compared to a transfer learning model,  EfficientNetB0, which has been trained on more images than was contained in the Kaggle data set to create the CNN model.  Ultimately, the transfer model was used in the Streamlit deployment of the image recognition app. 
+                            <div class="subheading mb-3">Calling openAI to identify bias in news articles</div>
+                            <p>Existing chrome extensions to identify sources of bias are manual at best, and usually meaningless. The data are not insightful. We can use GPT3 to parse text to identify biases in scraped content, with the addition of a prompt. This little script allows you to enter an article, and get a response on the political bias in the text.</p>
                             <br>
                             <p>Feel free to upload an image to the app and try and stump the model!!!</p>
                             <br>
-                            <a href="https://saskinosie-image-recognition-streamlit-app-hotdog-ddxcvn.streamlit.app/">Try the app here</a>
-                            <br>
-                            <a href="https://github.com/saskinosie/Image-Recognition-Streamlit-App">Code Here</a>
+                            <a href="https://github.com/ssaurbier/echo">Code Here</a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"></span></div>
                     
